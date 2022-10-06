@@ -1,14 +1,19 @@
-Comandos de GIT Básicos – Guía Completa
-¿Necesitas aprender algunos comandos de GIT básicos? Has venido al lugar correcto. Sigue leyendo para descubrir nuestra práctica hoja de trucos que puedes utilizar como referencia diaria.
+# **Comandos de GIT Básicos – Guía Completa**
+> ¿Necesitas aprender algunos comandos de GIT básicos? Has venido al lugar correcto. Sigue leyendo para descubrir nuestra práctica hoja de trucos que puedes utilizar como referencia diaria.
 
 ¡Empecemos!
 
-Tabla de Contenidos	
-Entendiendo cómo funciona GIT
-Comandos de GIT básicos
-Hoja de trucos de los comandos de GIT en .pdf
+---
 
-Entendiendo cómo funciona GIT
+
+> ## Tabla de Contenidos	
+> 1. Entendiendo cómo funciona GIT
+> 1. Comandos de GIT básicos
+> 1. Hoja de trucos de los comandos de GIT en .pdf
+
+---
+
+## Entendiendo cómo funciona GIT
 GIT es el SCV (sistema de control de versiones) de código abierto más utilizado que te permite rastrear los cambios realizados en los archivos. Las empresas y los programadores suelen utilizar el GIT para colaborar en el desarrollo de software y aplicaciones.
 
 Un proyecto GIT consta de tres secciones principales: el directorio de trabajo, el área de preparación y el directorio git.
@@ -17,19 +22,23 @@ El directorio de trabajo es donde se agregan, borran y editan los archivos. Lueg
 
 Todo el mundo puede usar GIT ya que está disponible para Linux, Windows, Mac y Solaris. El software puede tener una fuerte curva de aprendizaje, pero hay muchos tutoriales disponibles para ayudarte.
 
-Comandos de GIT básicos
+## Comandos de GIT básicos
 Aquí hay algunos comandos básicos de GIT que debes conocer:
 
-git init creará un nuevo repositorio local GIT. El siguiente comando de Git creará un repositorio en el directorio actual:
-git init
+`git init` creará un nuevo repositorio local GIT. El siguiente comando de Git creará un repositorio en el directorio actual:
+
+`git init`
 Como alternativa, puedes crear un repositorio dentro de un nuevo directorio especificando el nombre del proyecto:
-git init [nombre del proyecto]
-git clone se usa para copiar un repositorio. Si el repositorio está en un servidor remoto, usa:
-git clone nombredeusuario@host:/path/to/repository
+
+`git init [nombre del proyecto]`
+`git clone` se usa para copiar un repositorio. Si el repositorio está en un servidor remoto, usa:
+`git clone nombredeusuario@host:/path/to/repository`
+
 A la inversa, ejecuta el siguiente comando básico para copiar un repositorio local:
 git clone /path/to/repository
 git add se usa para agregar archivos al área de preparación. Por ejemplo, el siguiente comando de Git básico indexará el archivo temp.txt:
-git add <temp.txt>
+`git add <temp.txt>`
+
 git commit creará una instantánea de los cambios y la guardará en el directorio git.
 git commit –m “El mensaje que acompaña al commit va aquí”
 Ten en cuenta que los cambios confirmados no llegarán al repositorio remoto.
@@ -109,12 +118,12 @@ Si estás empezando con GIT, puede ser difícil recordar incluso los comandos b�
 
 Descargar (tamaño: 1.2 MB)
 
-Conclusión
+## Conclusión
 Aprender los comandos básicos de GIT será de gran ayuda para los desarrolladores, ya que pueden controlar fácilmente el código fuente de los proyectos. Puede que te lleve algo de tiempo recordarlos todos, por eso nuestra hoja de trucos de GIT podría resultarte útil.
 
 ¡Practica estos comandos de GIT y aprovecha al máximo tus habilidades en desarrollo! ¡Buena suerte!
 
-Glosario de términos para trabajar con git/GitHub
+## Glosario de términos para trabajar con git/GitHub
 repository
 Un repositorio es el elemento más básico de GitHub. Es más fácil imaginarlos como carpetas de proyecto. Un repositorio contiene todos los archivos de un proyecto (incluyendo la documentación), y almacena el histórico de modificaciones de cada archivo. Los repositorios pueden tener múltiples colaboradores y pueden ser tanto públicos como privados.
 commit
