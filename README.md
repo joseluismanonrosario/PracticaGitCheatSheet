@@ -1,3 +1,11 @@
+<div class="jumbotron">
+      <div class="container" style="background:blue">
+        <h1 class="no-anchor" data-toc-skip="" id="markdown-cheat-sheet">Markdown Cheat Sheet</h1>
+        <p>A quick reference to the Markdown syntax.</p>
+      </div>
+    </div>
+
+
 ![Logo GitHub](GitLogo.png)
 
 # **Comandos de GIT Básicos – Guía Completa**
